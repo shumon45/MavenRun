@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="regression testing">
+<test name="release 3.5">
+
+<classes>
+
+
+<class name="scripts.sampleTest"></class>
+<class name="scripts.yahooSighUp"></class>
+<class name="scripts.yahooSignupElement"></class>
+
+
+</classes>
+</test>
+</suite>

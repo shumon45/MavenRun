@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [sanity]">
+  <test name="sprint 2.2(failed)">
+    <classes>
+      <class name="scripts.yahooSighUp">
+        <methods>
+          <include name="finishTest"/>
+          <include name="setupTest"/>
+        </methods>
+      </class> <!-- scripts.yahooSighUp -->
+      <class name="scripts.sampleTest1">
+        <methods>
+          <include name="beforeEachTest"/>
+          <include name="setupTest"/>
+          <include name="afterEachTest"/>
+          <include name="finishTest"/>
+        </methods>
+      </class> <!-- scripts.sampleTest1 -->
+      <class name="scripts.sampleTest">
+        <methods>
+          <include name="finishTest"/>
+          <include name="setupTest"/>
+        </methods>
+      </class> <!-- scripts.sampleTest -->
+      <class name="scripts.yahooSignupElement">
+        <methods>
+          <include name="endtest"/>
+          <include name="validateForm"/>
+          <include name="setupTest"/>
+          <include name="beforeEachTest"/>
+        </methods>
+      </class> <!-- scripts.yahooSignupElement -->
+    </classes>
+  </test> <!-- sprint 2.2(failed) -->
+</suite> <!-- Failed suite [sanity] -->
